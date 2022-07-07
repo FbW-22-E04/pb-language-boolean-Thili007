@@ -1,5 +1,6 @@
 // Exercise - 01.1
 
+console.log(3 == "3");
 console.log(3 === "3");
 
 // Exercise - 01.2
@@ -14,7 +15,7 @@ console.log(9);
 
 let myVar = true;
 
-console.log(myVar !== true ? "good morning" : "good evening");
+console.log(!myVar ? "good morning" : "good evening");
 
 // Exercise - 03
 
